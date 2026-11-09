@@ -21,6 +21,7 @@ Abre `index.html` directamente en un navegador. No requiere dependencias, compil
 - Logo: creciente lunar dibujado con CSS, sin barra ni estrella.
 - Contacto: enlace de correo provisional hasta configurar un dominio y buzón corporativo.
 - Las referencias a proyectos y automatización están redactadas sin inventar clientes ni métricas.
+- Sección «Fundador»: trayectoria, formación, tecnologías e idiomas de Guillermo Luna, sacados de su CV.
 
 ## Pendiente antes de producción
 
