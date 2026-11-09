@@ -23,6 +23,7 @@ const jsonLd = {
   url: canonical,
   knowsLanguage: ['es', 'en', 'it', 'de'],
   sameAs: [profile.linkedin, profile.github].filter(Boolean),
+  worksFor: { '@type': 'Organization', name: profile.brand },
 };
 ---
 

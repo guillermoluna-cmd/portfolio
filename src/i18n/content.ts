@@ -4,6 +4,7 @@
 export type Lang = 'es' | 'en';
 
 export const profile = {
+  brand: 'Desvelo Labs',
   name: 'Guillermo Luna',
   fullName: 'Guillermo Luna Aguado',
   email: 'guillermo.luna.ingteleco@gmail.com',
@@ -15,9 +16,9 @@ export const profile = {
 
 const es = {
   meta: {
-    title: 'Guillermo Luna · Desarrollo, Automatización e IA',
+    title: 'Desvelo Labs · Desarrollo, Automatización e IA | Guillermo Luna',
     description:
-      'Ingeniero de Telecomunicación y desarrollador full-stack. Desarrollo de software a medida, automatización de procesos con IA y cierre de ventas para empresas. Trabajo en remoto.',
+      'Desvelo Labs, el estudio de Guillermo Luna, ingeniero de Telecomunicación y desarrollador full-stack. Desarrollo de software a medida, automatización de procesos con IA y cierre de ventas para empresas. Trabajo en remoto.',
   },
   nav: {
     services: 'Servicios',
@@ -33,7 +34,7 @@ const es = {
     titleB: 'para que tu negocio',
     rotating: ['venda más.', 'trabaje menos.', 'escale sin fricción.'],
     subtitle:
-      'Soy Guillermo, ingeniero de Telecomunicación y desarrollador full-stack con más de 5 años construyendo software para aseguradoras e industria. Ahora ayudo a empresas a automatizar procesos, integrar IA y cerrar más ventas.',
+      'Desvelo Labs es mi estudio de desarrollo, automatización e IA. Soy Guillermo, ingeniero de Telecomunicación y desarrollador full-stack con más de 5 años construyendo software para aseguradoras e industria. Ayudo a empresas a automatizar procesos, integrar IA y cerrar más ventas.',
     primary: 'Agenda una llamada gratuita',
     secondary: 'Ver servicios',
     stats: [
@@ -205,7 +206,7 @@ const es = {
   },
   footer: {
     rights: 'Todos los derechos reservados.',
-    built: 'Diseñado y desarrollado por Guillermo Luna.',
+    built: 'Diseñado y desarrollado por Desvelo Labs.',
   },
   switchLang: 'EN',
   switchLangLabel: 'View in English',
@@ -215,9 +216,9 @@ const es = {
 
 const en: typeof es = {
   meta: {
-    title: 'Guillermo Luna · Software, Automation & AI',
+    title: 'Desvelo Labs · Software, Automation & AI | Guillermo Luna',
     description:
-      'Telecommunications engineer and full-stack developer. Custom software development, AI-powered process automation and sales closing for businesses. Fully remote.',
+      'Desvelo Labs, the studio of Guillermo Luna, telecommunications engineer and full-stack developer. Custom software development, AI-powered process automation and sales closing for businesses. Fully remote.',
   },
   nav: {
     services: 'Services',
@@ -233,7 +234,7 @@ const en: typeof es = {
     titleB: 'that help your business',
     rotating: ['sell more.', 'work less.', 'scale smoothly.'],
     subtitle:
-      "I'm Guillermo, a telecommunications engineer and full-stack developer with 5+ years building software for insurers and industry. Today I help companies automate processes, adopt AI and close more deals.",
+      "Desvelo Labs is my software, automation and AI studio. I'm Guillermo, a telecommunications engineer and full-stack developer with 5+ years building software for insurers and industry. I help companies automate processes, adopt AI and close more deals.",
     primary: 'Book a free call',
     secondary: 'See services',
     stats: [
@@ -404,7 +405,7 @@ const en: typeof es = {
   },
   footer: {
     rights: 'All rights reserved.',
-    built: 'Designed and built by Guillermo Luna.',
+    built: 'Designed and built by Desvelo Labs.',
   },
   switchLang: 'ES',
   switchLangLabel: 'Ver en español',

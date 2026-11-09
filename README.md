@@ -1,4 +1,4 @@
-# Portfolio · Guillermo Luna
+# Desvelo Labs · Guillermo Luna
 
 Web personal y de servicios freelance: desarrollo de software, automatización e IA y closer de ventas. Bilingüe (español en `/`, inglés en `/en/`), con modo claro/oscuro.
 
