@@ -1,29 +1,28 @@
-# Desvelo Labs · Guillermo Luna
+# Desvelo Labs — Portfolio
 
-Web personal y de servicios freelance: desarrollo de software, automatización e IA y closer de ventas. Bilingüe (español en `/`, inglés en `/en/`), con modo claro/oscuro.
+Sitio web estático y responsive para Desvelo Labs, un estudio tecnológico independiente enfocado en ingeniería de software, integración de sistemas y automatización inteligente.
 
-Hecha con [Astro](https://astro.build) y [Tailwind CSS](https://tailwindcss.com).
+## Abrir localmente
 
-## Desarrollo
+Abre `index.html` directamente en un navegador. No requiere dependencias, compilación ni servidor.
 
-```bash
-npm install
-npm run dev      # http://localhost:4321/portfolio/
-npm run build    # genera la web estática en dist/
-```
+## Publicar con GitHub Pages
 
-## Editar contenido
+1. En el repositorio, entra en **Settings → Pages**.
+2. En **Build and deployment**, selecciona **Deploy from a branch**.
+3. Elige la rama **main** y la carpeta **/(root)**.
+4. Guarda los cambios. GitHub Pages publicará la web en la URL que indique esa sección.
 
-- **Textos (ES/EN):** `src/i18n/content.ts`. Cada texto aparece dos veces, una por idioma.
-- **Email, LinkedIn, GitHub, Calendly:** objeto `profile` al inicio de `src/i18n/content.ts`. Los enlaces vacíos no se muestran; si `calendly` está vacío, "Agenda una llamada" abre un email.
-- **Diseño y secciones:** `src/components/Page.astro`. Colores en `src/styles/global.css`.
-- **Foto:** pon la imagen en `public/` y sustituye el bloque "GL" de la sección *Sobre mí* (hay un comentario indicándolo).
+## Personalizar
 
-## Publicación (GitHub Pages)
+- Contenido, estilos y SVG de fondo se encuentran en `index.html`.
+- Titular: «Lo que aún no ves está por descubrir» (interlineado 1.22 en escritorio y 1.24 en móvil, para evitar que se solapen las tildes).
+- Paleta: azul noche, teal y cobre dorado.
+- Logo: creciente lunar dibujado con CSS, sin barra ni estrella.
+- Contacto: enlace de correo provisional hasta configurar un dominio y buzón corporativo.
+- Las referencias a proyectos y automatización están redactadas sin inventar clientes ni métricas.
+- Sección «Fundador»: trayectoria, formación, tecnologías e idiomas de Guillermo Luna, sacados de su CV.
 
-Cada push a `main` publica la web con `.github/workflows/deploy.yml`.
-Una sola vez: en GitHub, **Settings → Pages → Source → GitHub Actions**.
+## Pendiente antes de producción
 
-URL: https://guillermoluna-cmd.github.io/portfolio/
-
-Para usar un dominio propio, cambia `site` y elimina `base` en `astro.config.mjs`.
+Confirmar la disponibilidad legal de la marca y dominio, incorporar textos legales y privacidad apropiados, actualizar referencias a proyectos autorizados y configurar un contacto profesional.
